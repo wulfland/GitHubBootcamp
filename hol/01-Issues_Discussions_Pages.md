@@ -118,3 +118,11 @@
     </details>
     
     9. Verify your issue template and create a bug and an issue from the custom template
+
+## Discussions
+
+1. Ask a question in discussions and answer it (mark it as answered)
+2. Create a poll 
+3. Create an announcement
+4. Pin the question and the announcement to discussion
+5. See [here](https://github.com/wulfland/AccelerateDevOps/discussions) for ideas
