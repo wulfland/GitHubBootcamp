@@ -11,7 +11,7 @@ The workshop is designed for developers that have used other platforms like Azur
 ### Part 1: 👥 Collaborate using GitHub
 
 - [ ] Introduction to GitHub
-- [ ] GitHub flavored markdown
+- [ ] [GitHub flavored markdown](https://github.com/wulfland/AccelerateDevOps/issues/232)
 - [ ] Collaborate using GitHub Issues Discussions, Wikis, and Pages
 - [ ] 🔨 Hands-on: Collaboration using Issues, Discussions, and Pages
 
