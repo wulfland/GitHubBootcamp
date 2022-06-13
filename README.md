@@ -13,7 +13,7 @@ The workshop is designed for developers that have used other platforms like Azur
 - [ ] Introduction to GitHub
 - [ ] [GitHub flavored markdown](https://github.com/wulfland/AccelerateDevOps/issues/232)
 - [ ] Collaborate using [GitHub Issues](https://github.com/wulfland/AccelerateDevOps/issues/436), [Discussions](https://github.com/wulfland/AccelerateDevOps/discussions), [Wikis](https://github.com/wulfland/AccelerateDevOps/wiki), and [Pages](https://wulfland.github.io/AccelerateDevOps/) ([source](https://github.com/wulfland/AccelerateDevOps/tree/main/docs))
-- [ ] 🔨 Hands-on: Collaboration using Issues, Discussions, and Pages
+- [ ] 🔨 Hands-on: [Collaboration using Issues, Discussions, and Pages](hol/01-Issues_Discussions_Pages.md)
 
 
 ### Part 2: 📊 Portfolio and project management
