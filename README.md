@@ -29,7 +29,7 @@ The workshop is designed for developers that have used other platforms like Azur
 
 - [ ] Branching strategies and git workflows like GitHub flow
 - [ ] Code owners and branch protection
-- [ ] Hands-on: Caption this! (local git and pull requests)
+- [ ] 🔨 Hands-on: Caption this! (local git and pull requests)
 - [ ] Introduction to GitHub Actions workflows und YAML
 - [ ] 🔨 Hands-on: My first Action workflow
 
