@@ -1,4 +1,4 @@
-# GitHubBootcamp
+# GitHub Bootcamp - Workshop
 
 ## 👉 Introduction
 
