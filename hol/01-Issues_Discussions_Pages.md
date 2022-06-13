@@ -1,4 +1,4 @@
-# Hands-on: 🔨 Collaboration using Issues, Discussions, and Pages
+# 🔨 Hands-on: Collaboration using Issues, Discussions, and Pages
 
 ## Issues
 
