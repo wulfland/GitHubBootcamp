@@ -126,3 +126,41 @@
 3. Create an announcement
 4. Pin the question and the announcement to discussion
 5. See [here](https://github.com/wulfland/AccelerateDevOps/discussions) for ideas
+
+## Pages
+
+1. Create a markdown file `docs/index.md` hand add metadata `layout: home` amd some sample markdown 
+
+<details><summary>Solution</summary> 
+    
+```yaml
+---
+layout: home
+---
+
+This is the the homepage `index.md`
+```
+    
+</details>
+
+2. Enbale `Pages` in your repository (`main` branch - folder `docs`) and see your new homepage
+ 
+<details><summary>Solution</summary> 
+    <img width="722" alt="image" src="https://user-images.githubusercontent.com/5276337/173327871-e3f62cf0-c101-4e6c-8911-780c779d6571.png">
+</details>
+
+3. Add a file `docs/_config.yml` and configure pages to use the `minima` theme.
+
+<details><summary>Solution</summary> 
+```yaml
+title: GitHub Bootcamp
+description: >-
+  This is is a sample Jekyll website that is hosted in GitHub Pages.
+  It is used in the `GitHub Bootcamp` workshop from @wulfland
+twitter_username: mike_kaufmann
+github_username: wulfland
+theme: minima
+markdown: kramdown
+```
+</details>
+
