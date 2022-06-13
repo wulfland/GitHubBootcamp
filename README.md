@@ -1,5 +1,7 @@
 # GitHub Bootcamp - Workshop
 
+Repo for the `GitHub Bootcamp` 1-day Workshop from @wulfland.
+
 ## 👉 Introduction
 
 GitHub is more than just source control. It is a complete DevOps solution that can help you to accelerate your entire development process – from idea to production. In this practical boot camp, you’ll get to know all parts of GitHub and you’ll learn all tricks to get you an effective start.
