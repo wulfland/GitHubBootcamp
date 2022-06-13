@@ -18,8 +18,8 @@ The workshop is designed for developers that have used other platforms like Azur
 
 ### Part 2: 📊 Portfolio and project management
 
-- [ ] Issue templates, milestones, and projects
-- [ ] The new issues: workflows, boards, and insights
+- [ ] Projects: Backlogs, Metadata, and Boards
+- [ ] Workflows, Insights, and Charts
 - [ ] 🔨 Hands-on: The new GitHub issue/projects
 
 
