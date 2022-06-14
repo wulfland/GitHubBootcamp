@@ -22,7 +22,7 @@ The workshop is designed for developers that have used other platforms like Azur
 
 - [ ] Projects: Backlogs, Metadata, and Boards
 - [ ] Workflows, Insights, and Charts
-- [ ] 🔨 Hands-on: The new GitHub issue/projects
+- [ ] 🔨 Hands-on: [The new GitHub issue/projects](hol/02-Projects.md)
 
 
 ### Part 3: 🤝 Collaborate on code
