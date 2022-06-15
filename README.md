@@ -8,6 +8,10 @@ GitHub is more than just source control. It is a complete DevOps solution that c
 
 The workshop is designed for developers that have used other platforms like Azure DevOps, GitLab, or Bitbucket and now want to switch to GitHub. But it is also suitable for people that are new to topics like git, CI/CD and DevOps.
 
+## Getting ready
+
+Please follow [these instructions](GettingReady.md) and make sure you have set up everything correctly following the [prerequisits](#-prerequisits).
+
 ## 📆 Agenda
 
 ### Part 1: 👥 Collaborate using GitHub
