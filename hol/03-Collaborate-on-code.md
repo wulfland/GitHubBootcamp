@@ -2,7 +2,7 @@
 
 ## Create a issue to work on
 
-1. Create a [new issue](issues/new) with the title `Fix Game` and remember the id of the issue (most likely #1).
+1. Create a [new issue](/issues/new) with the title `Fix Game` and remember the id of the issue (most likely #1).
 
 ## Local git config
 
