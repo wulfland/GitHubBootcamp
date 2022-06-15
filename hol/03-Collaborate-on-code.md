@@ -1,8 +1,12 @@
 # 🔨 Hands-on: Collaborate on code
 
+## Enable GitHub Pages
+
+Enable GitHub Pages in [Settings | Pages](/../../settings/pages) for the `/docs` folder and the `main` branch. Open `index.html` in the pages URL and verify that the game is too slow.
+
 ## Create a issue to work on
 
-1. Create a [new issue](/../../issues/new) with the title `Fix Game` and remember the id of the issue (most likely #1).
+1. Read the issue [🐞 Fix game](/../../issues/1) and see the instructions how to fix the game.
 
 ## Local git config
 
@@ -41,8 +45,8 @@ Create new local branch `users/<user-name>/<issue-id>_fix-game` and switch to it
 
 Create the branch and switch to it:
 ```console
-git branch users/<user-name>/<issue-id>_fix-game
-git switch users/<user-name>/<issue-id>_fix-game
+git branch users/<user-name>/1_fix-game
+git switch users/<user-name>/1_fix-game
 ```
 Or switch to a new branch: 
   
@@ -52,3 +56,7 @@ git switch -c users/<user-name>/<issue-id>_fix-game
 </details>
   
 ## Do changes to the file
+  
+Modify line 78 in [docs/index.html](../docs/index.html#L78) and modify the values like indicated in [🐞 Fix game](/../../issues/1).
+  
+
