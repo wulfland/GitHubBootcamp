@@ -23,8 +23,32 @@ git config --global user.email "<github-user-id>+<github-user-name>@users.norepl
 1. Copy the URL to the repository from [Code](/../../) to the clipboard:
 <img width="1162" alt="image" src="https://user-images.githubusercontent.com/5276337/173845095-c4fdc522-135a-4de3-80fc-6fef95fa7aee.png">
 
-2. Clone the  repository:
+2. Clone the  repository and change into the new folder:
 
+  <details><summary>Solution</summary>
+
+  ```console
+  git clone <paste URL>
+  cd GitHubBootcamp
+  ```
+  </details>
+  
+## Create a local branch
+
+Create new local branch `users/<user-name>/<issue-id>_fix-game` and switch to it.
+
+<details><summary>Solution</summary>
+
+Create the branch and switch to it:
 ```console
-git clone <paste URL>
+git branch users/<user-name>/<issue-id>_fix-game
+git switch users/<user-name>/<issue-id>_fix-game
 ```
+Or switch to a new branch: 
+  
+```console
+git switch -c users/<user-name>/<issue-id>_fix-game
+``` 
+</details>
+  
+## Do changes to the file
