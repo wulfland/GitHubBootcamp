@@ -38,11 +38,11 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 - [ ] [Code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) and [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) (demo)
 - [ ] 🔨 Hands-on: [Collaborate on code](hol/03-Collaborate-on-code.md)
 - [ ] 🔨 Hands-on: [Review code](hol/04-Review-code.md)
-- [ ] Introduction to GitHub Actions workflows und YAML
-- [ ] 🔨 Hands-on: My first Action workflow
 
 ### Part 4: 🚀 CI/CD and automation
 
+- [ ] Introduction to GitHub Actions workflows und YAML
+- [ ] 🔨 Hands-on: My first Action workflow
 - [ ] Types of GitHub Actions
 - [ ] 🔨 Hands-on: My first container and JavaScript Action
 - [ ] GitHub Packages and GitHub Releases
