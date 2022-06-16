@@ -62,8 +62,19 @@
 
 Verify that your own pull request is also merged. Go back to your command line and clean up your local repo:
 
-Switch to the main branch: `git switch main`
-Pull the changes with `--prune` or `-p` to delete branches do not longer exist:
+1. Switch to the main branch: 
+
+```
+git switch main
+```
+
+2. Pull the changes with `--prune` or `-p` to delete branches do not longer exist:
+
+```
+git pull --prune
+```
+
+The result should look like this: 
 
 ```console
 $ git switch main
@@ -85,3 +96,6 @@ $ pull --prune
  docs/index.html               |  2 +-
  1 files changed, 1 insertions(+), 1 deletions(-)
 ```
+
+3. Check that the issue was automatically closed when the PR was merged
+4. Check that the bug was fixed and your game is working
