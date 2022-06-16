@@ -49,8 +49,21 @@ docs/ @<your-partners-user-name>
 
 ## Protect the main branch
 
+Protect the `main` branch and enforce reviews from code owners.
+  
+<details><summary>Solution</summary>
+  
+1. Create a new [Branch Protection Rule](/../../settings/branch_protection_rules/new)
+2. Set the **Branch name pattern** to `main`.
+3. 
+  
+<img width="412" alt="image" src="https://user-images.githubusercontent.com/5276337/174016555-804d5210-dfba-4f00-983a-1cb6e4de0ba0.png">
 
+4. Check **Include administrators**
+5. Click create
 
+</details>
+  
 ## Local git config
 
 1. Check your local git config with `git config --global user.name` and `git config --global user.email`. 
@@ -68,7 +81,7 @@ git config --global user.email "<github-user-id>+<github-user-name>@users.norepl
 ## Clone the repository
 
 1. Copy the URL to the repository from [Code](/../../) to the clipboard:
-<img width="1162" alt="image" src="https://user-images.githubusercontent.com/5276337/173845095-c4fdc522-135a-4de3-80fc-6fef95fa7aee.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/5276337/173845095-c4fdc522-135a-4de3-80fc-6fef95fa7aee.png">
 
 2. Clone the  repository and change into the new folder:
 
@@ -100,6 +113,31 @@ git switch -c users/<user-name>/<issue-id>_fix-game
   
 ## Do changes to the file
   
-Modify line 78 in [docs/index.html](../docs/index.html#L78) and modify the values like indicated in [🐞 Fix game](/../../issues/1).
+1. Modify line 78 in [docs/index.html](../docs/index.html#L78) and modify the values like indicated in [🐞 Fix game](/../../issues/1).
+2. Add your file to the index:
+  ```console
+  git add docs/index.html
+  ```
+3. Commit your changes:
+  ```console
+  git commit
+  ```
+4. In your editor, enter a title for the commit in line 1. Title should be smaller then 50 characters and written in imperative. What will happen, when this commit is applied. For example:
+  ```
+  Fix timing in docs/index.html
+  ```
+5. After a blank line add the body. Make sure to break your lines at 70 characters. Add a reference to the issue with a keyord that laters closes the issue (for example closes, fixes, resolves):
+  ```
+  
+This commit fixes the timing error in docs/index.html by setting 
+correct start and min properties for the speed object.
+
+This commit fixes #1
+  ```
+  Safe the file and close the editor.
+6. Push your changes:
+  ```console
+  git push --set-upstream origin users/<user-name>/1_fix-game
+  ```
   
 
