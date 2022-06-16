@@ -10,13 +10,45 @@
 
 ## Invite your co-worker and give him write permissions to your repo
 
-1. Go to [Collaborators](/../../settings/access) and click `Add people`. 
+Invite your co-worker and give him write permissions to your repo
 
-<img width="573" alt="image" src="https://user-images.githubusercontent.com/5276337/174008450-86231b45-6328-483e-a09d-3148a38d7f9d.png">
+<details><summary>Solution</summary>
+  
+1. Go to [Collaborators](/../../settings/access) and click `Add people`. Search for your partner and add him to your repo.
 
-<img width="994" alt="image" src="https://user-images.githubusercontent.com/5276337/174008524-d47ee1cd-4281-42e0-a38a-c3c13ee6f125.png">
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/5276337/174008450-86231b45-6328-483e-a09d-3148a38d7f9d.png">
 
-<img width="553" alt="image" src="https://user-images.githubusercontent.com/5276337/174008624-58dbdbad-9a92-411c-a80c-f85d537b5696.png">
+2. Your partner will receive a notification - but you can slo copy the link for the invitation and send it directly.
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/5276337/174008524-d47ee1cd-4281-42e0-a38a-c3c13ee6f125.png">
+
+3. Your partner has to accept the invitation.
+
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/5276337/174008624-58dbdbad-9a92-411c-a80c-f85d537b5696.png">
+
+</details>
+
+## Create a CODEOENERS file
+
+Make yourself the global `CODEOWNER` for all files - and your partner for all files in the folder `docs/`.
+
+<details><summary>Solution</summary>
+  
+1. Create a [New file](/../../new/main) `CODEOWNERS`.
+2. Add yourself as the global owner. Add this ti line 1: 
+```
+* @<your-github-username>
+```
+4. Make your partner the owner of the file in the `docs/` folder. Add this to line 2: 
+```
+docs/ @<your-partners-user-name>
+```
+5. Commit the file directly to `main`.
+
+</details>
+
+## Protect the main branch
+
 
 
 ## Local git config
