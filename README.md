@@ -60,4 +60,4 @@ For this workshop you need the following:
 - A text editor of choice (Visual Studio Code, VIM, Atom, Notepad++ or similar)
 - Git in a current version (>2.23, on Windows with Git-Bash for beginners)
 
-
+test
