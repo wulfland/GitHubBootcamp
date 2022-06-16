@@ -72,76 +72,28 @@ on:
   
 </details>
 
-7. Commit the workflow file - and trigger the workflow manually (it should not run if your path filter works).
+7. Commit the workflow file - and trigger the workflow manually. It should not run automatically if your path filter works. Got to [Action](/../../Actions),  select [GitHub Actions Demo](/../../actions/workflows/github-actions-demo.yml) and `Run workflow`: 
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/5276337/174105162-19f33fd1-8533-4860-9279-88fabec84451.png">
 
 
 ## Viewing your workflow results
-1. On GitHub, navigate to the main page of the repository.
-2. Under your repository name, click `Actions`.
-![](https://docs.github.com/assets/images/help/repository/actions-tab.png)
 
-3. In the left sidebar, click the workflow you want to see.
-![](https://docs.github.com/assets/images/help/repository/actions-quickstart-workflow-sidebar.png)
+1. Click on your workflow run:
 
-4. From the list of workflow runs, click the name of the run you want to see.
-![](https://docs.github.com/assets/images/help/repository/actions-quickstart-run-name.png)
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/5276337/174105747-0e205e0d-37cc-464c-905b-5b29be74fc75.png">
 
-5. Under `Jobs` , click the `Explore-GitHub-Actions` job.
-![](https://docs.github.com/assets/images/help/repository/actions-quickstart-job.png)
+2. Click on the job 'Build':
 
-6. The log shows you how each of the steps was processed. Expand any of the steps to view its details.
-![](https://docs.github.com/assets/images/help/repository/actions-quickstart-logs.png)
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/5276337/174105990-a1c204c6-fb7d-44a4-9343-6982899edb25.png">
 
-For example, you can see the list of files in your repository:
-![](https://docs.github.com/assets/images/help/repository/actions-quickstart-log-detail.png)
+3. Expand `Set up job` and note the log woth line number (line numbers are links). Check the information about the virtual environment and included software:
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/5276337/174106759-c2a8f933-74cf-42a4-899b-b29dc67eccd7.png">
+
+4. Expand your jobs and check that the output was correct.
+
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/5276337/174107136-af9187c1-dbee-4109-9ddc-f2abd4830282.png">
 
 
-## If time permits: Only trigger workflow when a change is made to the website
-
-See: [Workflow syntax for github actions - on push/pull - request paths.](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)
-```
-name: GitHub Actions Demo
-on:
-  push:
-    paths:
-    - 'TailwindTraders.Website/**/*'
-jobs:
-
-...
-...
-```
-
-## If time permits: Only trigger workflow on new issue created
-
-See: [Webhook events and payloads - Issues](https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#issues)
-```
-...
-...
-
-on:
-  issues:
-    types: [opened]
-
-...
-...
-```
-
-## If time permits: Create a Matrix build for release and debug
-See: [Workflow Syntax - Jobs - Matrix Strategy](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstrategymatrix)
-
-```
-...
-...
-
-Explore-GitHub-Actions:
-    runs-on: ubuntu-latest  
-    strategy:
-      matrix:
-        configuration: [debug, release]
-    steps:
-    - run: echo "🔧 Building the cofiguration ${{ matrix.configuration }}."
-
-...
-...
-```
 
