@@ -60,3 +60,4 @@ For this workshop you need the following:
 - Git in a current version (>2.23, on Windows with Git-Bash for beginners)
 
 
+test
