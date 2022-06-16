@@ -42,7 +42,7 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 ### Part 4: 🚀 CI/CD and automation
 
 - [ ] Introduction to GitHub Actions workflows und YAML
-- [ ] 🔨 Hands-on: My first Action workflow
+- [ ] 🔨 Hands-on: [My first Action workflow](hol/05-My-first-workflow.md)
 - [ ] Types of GitHub Actions
 - [ ] 🔨 Hands-on: My first container and JavaScript Action
 - [ ] GitHub Packages and GitHub Releases
