@@ -140,4 +140,23 @@ This commit fixes #1
   git push --set-upstream origin users/<user-name>/1_fix-game
   ```
   
+## Create a pull request 
+
+Before creating the pull request, ensure that in [Settings](/../../settings) all options for pull requests are enabled:
+  
+<img width="412" alt="image" src="https://user-images.githubusercontent.com/5276337/174024187-495607be-b1ad-4416-8631-54ce4592d16f.png">
+
+  
+Now create a pull request in draft mode. If you have the [GitHub CLI](https://cli.github.com/) installed, you can do it directly from the command line:
+
+```console
+gh pr create --fill --draft
+```
+
+Otherwise go to the pull request tab and click `Conpare and pull request`:
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/5276337/174023923-33c02817-861a-4006-bddc-41e6dbe3e692.png">
+
+Note that the title and body of the commit are automatically added to the PR and that the codeowner was added as a reviewer:
+  
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/5276337/174024753-30041e90-ef8d-433e-bea5-0107a3488a83.png">
 
