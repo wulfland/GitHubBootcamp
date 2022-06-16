@@ -159,4 +159,9 @@ Otherwise go to the pull request tab and click `Conpare and pull request`:
 Note that the title and body of the commit are automatically added to the PR and that the codeowner was added as a reviewer:
   
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/5276337/174024753-30041e90-ef8d-433e-bea5-0107a3488a83.png">
+  
+Create the PR. The issue will be automatically linked. The PR is still in `draft` mode and your partner is not notified, yet. Mark it as ready to enter the the phase and collaborate using reviews:
+  
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/5276337/174026618-7de907d9-eb74-46a3-93e8-10b9a66f4fe4.png">
+
 
