@@ -2,11 +2,22 @@
 
 ## Enable GitHub Pages
 
-Enable GitHub Pages in [Settings | Pages](/../../settings/pages) for the `/docs` folder and the `main` branch. Open `index.html` in the pages URL and verify that the game is too slow.
+1. Enable GitHub Pages in [Settings | Pages](/../../settings/pages) for the `/docs` folder and the `main` branch. Open the pages URL and verify that the game is too slow.
 
-## Create a issue to work on
+## Review the issue to fix
 
 1. Read the issue [🐞 Fix game](/../../issues/1) and see the instructions how to fix the game.
+
+## Invite your co-worker and give him write permissions to your repo
+
+1. Go to [Collaborators](/../../settings/access) and click `Add people`. 
+
+<img width="573" alt="image" src="https://user-images.githubusercontent.com/5276337/174008450-86231b45-6328-483e-a09d-3148a38d7f9d.png">
+
+<img width="994" alt="image" src="https://user-images.githubusercontent.com/5276337/174008524-d47ee1cd-4281-42e0-a38a-c3c13ee6f125.png">
+
+<img width="553" alt="image" src="https://user-images.githubusercontent.com/5276337/174008624-58dbdbad-9a92-411c-a80c-f85d537b5696.png">
+
 
 ## Local git config
 
