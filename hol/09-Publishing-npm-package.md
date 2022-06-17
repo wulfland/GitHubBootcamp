@@ -137,7 +137,7 @@ In this hands-on lab you will learn how to [publish npm packages to GitHub](http
         with: 
           fetch-depth: 0
     ```
-    Now yu can install and execute `GitVersion` and access the version using `$GITVERSION_SEMVER`:
+    Now you can install and execute `GitVersion` and access the version using `$GITVERSION_SEMVER`:
 
     ```yaml
       - name: Install GitVersion
@@ -170,4 +170,4 @@ In this hands-on lab you will learn how to [publish npm packages to GitHub](http
 
 In this module you have learned how to create NPM packages and deploy them to GitHub Packes with automatic versioning.
 
-🥇 Congratulations! You have finished all the execises of the GitHub Bootcamp worshop.
+🥇 Congratulations! You have finished all the exercises of the GitHub Bootcamp worshop.

@@ -1,15 +1,15 @@
 # 🔨 Hands-on: Review code 
 
-In this hands-on lab you will learn how to perform reviews of code, make suggestions, and approve pull requests. The module consts of the following parts:
+In this hands-on lab you will learn how to perform reviews of code, make suggestions, and approve pull requests. The module consists of the following parts:
 - [Open pull the request and add a single comment](#open-pull-the-request-and-add-a-single-comment)
 - [Incorporate the changes and set PR to autocomplete](#incorporate-the-changes-and-set-pr-to-autocomplete)
 - [Performing a review](#performing-a-review)
 - [Reconciling your local repository](#reconciling-your-local-repository)
 
 > **Note**:  
-> ⚡ In this this exercise you have to work together with the same partner that you added as a reviewer to your pr in 
+> ⚡ In this this exercise you have to work together with the same partner that you added as a reviewer to your PR in 
 > [Collaborate on code](03-Collaborate-on-code.md). The first part is in the repo of your partner. The second one in 
-> your own after the parter completed that aprt. The third one again in teh repo of your partner. Make sure that you 
+> your own after the parter completed that aprt. The third one again in the repo of your partner. Make sure that you 
 > always pick the right repository!
 
 ## Open pull the request and add a single comment
@@ -18,7 +18,7 @@ In this hands-on lab you will learn how to perform reviews of code, make suggest
 > ⚡ This part is done in the repo of your execise partner!
 
 1. Open the PR of your partner - you should have received a notification. 
-2. Go to the `Filles changed` tab and click line 78. Drag the mous to line 79 - this will select two lines. 
+2. Go to the `Filles changed` tab and click line 78. Drag the mouse to line 79 - this will select two lines. 
 3. Add a `suggestion` and increase the decrement to 0.006:
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/5276337/174055904-2816e258-a324-47ae-abb2-dd8a59c7d9d5.png">
@@ -77,7 +77,7 @@ Verify that your own pull request is also merged. Go back to your command line a
 git switch main
 ```
 
-2. Pull the changes with `--prune` or `-p` to delete branches do not longer exist:
+2. Pull the changes with `--prune` or `-p` to delete branches do not longer exist on the remote:
 
 ```
 git pull --prune

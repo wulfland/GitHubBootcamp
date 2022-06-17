@@ -1,6 +1,6 @@
 # 🔨 Hands-on: My first workflow
 
-In this hands-on lab your will create your first GitHub Action Workflow and learn how you can use Actions to automate tasks in your software development lifecycle. If you like more background information, please refer to the [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) pages on GitHub Docs. Good luck! 👍
+In this hands-on lab your will create your first GitHub Actions Workflow and learn how you can use Actions to automate tasks in your software development lifecycle. If you like more background information, please refer to the [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) pages on GitHub Docs. Good luck! 👍
 
 > **Note**:  
 > Before you start with this lab, please remove the branch rule, so you can commit to the main branch without a pull request to speed up the process 😏
@@ -57,7 +57,7 @@ on:
   
 </details>
 
-6. Create a job `Build` that runs on the latest ubuntu image on GitHub hosted runners. Check the documentation of the [virtual environments](https://github.com/actions/virtual-environments/) what label to use and what version it is.  The job should do the following things:
+6. Create a job `Build` that runs on the latest Ubuntu image on GitHub hosted runners. Check the documentation of the [virtual environments](https://github.com/actions/virtual-environments/) what label to use and what version it is. The job should do the following things:
   - Output the name of the event that triggered the workflow
   - Output the name of the branch that the repository is currently referencing
   - List all files in the repository 
