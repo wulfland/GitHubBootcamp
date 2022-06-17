@@ -1,4 +1,4 @@
-# 🔨 hands-on: Creating and publishing an npm package
+# 🔨 Hands-on: Creating and publishing an npm package
 
 1. Create a new repository and select `Node` as your `.gitignore` template:
 
