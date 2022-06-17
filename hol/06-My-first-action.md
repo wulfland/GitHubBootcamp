@@ -148,3 +148,8 @@ jobs:
   
 </details>
 
+## Summary 
+
+In this hands-on lab you've learned how to create a docker action, pass in parameters, return values to your workflow, and to test the action locally with a CI build.
+  
+You can continue now with [Staged deployments](07-Staged-deployments.md).
