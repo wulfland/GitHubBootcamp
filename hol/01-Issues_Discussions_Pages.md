@@ -152,7 +152,8 @@ This is the the homepage `index.md`
 3. Add a file `docs/_config.yml` and configure pages to use the `minima` theme.
 
 <details><summary>Solution</summary> 
-```yaml
+
+```YAML
 title: GitHub Bootcamp
 description: >-
   This is is a sample Jekyll website that is hosted in GitHub Pages.
@@ -162,5 +163,6 @@ github_username: wulfland
 theme: minima
 markdown: kramdown
 ```
+
 </details>
 
