@@ -1,5 +1,10 @@
 # 🔨 Hands-on: GitHub Projects
 
+In his hands-on lab you will practice working with GitHub projects. The exercise cosists of the following parts:
+- [Working with the backlog](#working-with-the-backlog)
+- [Working with boards](#working-with-boards)
+- [Workflows](#workflows)
+
 ## Working with the backlog
 
 1. Go to your GitHub profile | `Projects` and click `Create project`
@@ -19,7 +24,7 @@
   
 </details>
 
-## Working with Boards
+## Working with boards
 
 1. Create a Kanban Board filtered by `level:Feature` and safe it as `Feature Board`
 2. Create a Kanban Board filtered by `level:story` and change the column field to sprint. Safe the view as `Sprints`
@@ -37,3 +42,5 @@
 
 1. Enable all the default workflows
 2. Transition some issues and see how the status changes.
+
+Now that you have finished this exercise, you can go back to the [README](../README.md#part-3--collaborate-on-code).
