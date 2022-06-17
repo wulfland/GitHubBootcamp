@@ -1,14 +1,25 @@
 # 🔨 Hands-on: Collaborate on code
 
-## Enable GitHub Pages
+In this hands-on lab you will learn how to collaborate on code using pull-requests. The exercise consists of the following parts:
+- [Setting everything up](#setting-everything-up)
+- [Working with codeowners](#working-with-codeowners)
+- [Protecting the main branch](#protecting-the-main-branch)
+- [Working locally](#working-locally)
+- [Creating a pull request](#creating-a-pull-request)
 
-1. Enable GitHub Pages in [Settings | Pages](/../../settings/pages) for the `/docs` folder and the `main` branch. Open the pages URL and verify that the game is too slow.
+## Setting everything up
 
-## Review the issue to fix
+### Enable GitHub Pages
+
+> If you have enabled pages in the previous exercise you just have to change the folder from `/(root)` to `/docs`.
+
+1. Enable GitHub Pages in [Settings | Pages](/../../settings/pages) for the `/docs` folder and the `main` branch. Open the pages URL and verify that the teris game is visible but too slow.
+
+### Review the issue to fix
 
 1. Read the issue [🐞 Fix game](/../../issues/1) and see the instructions how to fix the game.
 
-## Invite your co-worker and give him write permissions to your repo
+### Invite your co-worker and give him write permissions to your repo
 
 Invite your co-worker and give him write permissions to your repo
 
@@ -28,7 +39,21 @@ Invite your co-worker and give him write permissions to your repo
 
 </details>
 
-## Create a CODEOENERS file
+### Check your local git config
+
+1. Check your local git config with `git config --global user.name` and `git config --global user.email`. 
+2. If you don't want to expose your email on GitHub get the email from [Email settings](https://github.com/settings/emails) and configure name and email accordingly:
+
+```console
+git config --global user.name "<your name>"
+git config --global user.email "<github-user-id>+<github-user-name>@users.noreply.github.com"
+```
+
+3. On windows you should also configure autocrlf: `git config --global core.autocrlf true`. This is normally done when you execute the git setup.
+
+> Memory Tip: autocrlf stands for auto carriage return line feed.
+
+## Working with codeowners
 
 Make yourself the global `CODEOWNER` for all files - and your partner for all files in the folder `docs/`.
 
@@ -47,7 +72,7 @@ docs/ @<your-partners-user-name>
 
 </details>
 
-## Protect the main branch
+## Protecting the main branch
 
 Protect the `main` branch and enforce reviews from code owners.
   
@@ -64,21 +89,9 @@ Protect the `main` branch and enforce reviews from code owners.
 
 </details>
   
-## Local git config
+## Working locally
 
-1. Check your local git config with `git config --global user.name` and `git config --global user.email`. 
-2. If you don't want to expose your email on GitHub get the email from [Email settings](https://github.com/settings/emails) and configure name and email accordingly:
-
-```console
-git config --global user.name "<your name>"
-git config --global user.email "<github-user-id>+<github-user-name>@users.noreply.github.com"
-```
-
-3. On windows you should also configure autocrlf: `git config --global core.autocrlf true`. This is normally done when you execute the git setup.
-
-> Memory Tip: autocrlf stands for auto carriage return line feed.
-
-## Clone the repository
+### Clone the repository
 
 1. Copy the URL to the repository from [Code](/../../) to the clipboard:
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/5276337/173845095-c4fdc522-135a-4de3-80fc-6fef95fa7aee.png">
@@ -93,7 +106,7 @@ git config --global user.email "<github-user-id>+<github-user-name>@users.norepl
   ```
   </details>
   
-## Create a local branch
+### Create a local branch
 
 Create new local branch `users/<user-name>/<issue-id>_fix-game` and switch to it.
 
@@ -111,7 +124,7 @@ git switch -c users/<user-name>/<issue-id>_fix-game
 ``` 
 </details>
   
-## Do changes to the file
+### Do changes to the file
   
 1. Modify line 78 in [docs/index.html](../docs/index.html#L78) and modify the values like indicated in [🐞 Fix game](/../../issues/1).
 2. Add your file to the index:
@@ -140,7 +153,7 @@ This commit fixes #1
   git push --set-upstream origin users/<user-name>/1_fix-game
   ```
   
-## Create a pull request 
+## Creating a pull request 
 
 Before creating the pull request, ensure that in [Settings](/../../settings) all options for pull requests are enabled:
   
@@ -164,5 +177,7 @@ Create the PR. The issue will be automatically linked. The PR is still in `draft
   
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/5276337/174026618-7de907d9-eb74-46a3-93e8-10b9a66f4fe4.png">
 
-
+## Summary
+  
+In this hands-on lab you've learned how to protect your branch, use codeowners, work locally, and create a pull request. 
 Please continue with [Review code](04-Review-code.md)
