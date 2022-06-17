@@ -104,4 +104,4 @@ This hands on lab is based on [My first workflow](05-My-first-workflow.md) and a
 In this lab you have learned to create and protect environments in GitHub and use them in a workflow. You have also learned to conditionally 
 execute jobs or steps and to chain jobs using the `needs` keeword.
 
-You can continue with the [README](..README.md#part-4--cicd-and-automation).
+You can continue with the [README](../README.md#part-4--cicd-and-automation).
