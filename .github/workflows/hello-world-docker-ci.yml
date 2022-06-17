@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
     paths: [ hello-world-docker-action/** ]
-  repository_dispatch:
+  workflow_dispatch:
         
 jobs:
   test-action:
