@@ -48,6 +48,7 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 - [ ] Staged deployments with environments, approvals, and deployment gates
 - [ ] 🔨 Hands-on: [Staged deployments](hol/07-Staged-deployments.md)
 - [ ] GitHub Packages and GitHub Releases
+- [ ] 🔨 Hands-on: [Creating and publishing a docker image to ghcr.io](hol/08-Publish-docker-to-ghcr.md) 
 - [ ] 🔨 Hands-on: Releasing NPM packages and Docker containers
 
 ## ⚡ Prerequisits
