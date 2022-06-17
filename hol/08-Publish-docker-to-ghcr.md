@@ -1,6 +1,8 @@
 # 🔨 Hands-on: Creating and publishing a docker image to `ghcr.io`
 
-1. Create a new repsitory `container-demo` and add a new file namend Dockerfile (without extension). Add the following content:
+In this hands-on lab you will create a docker container and publishing it automatically to GitHub packages using GitHub Actions.
+
+1. Create a new repsitory `container-demo` and add a new file namend `Dockerfile` (without extension). Add the following content:
 
     ```dockerfile
     FROM alpine
@@ -83,3 +85,8 @@
     $ docker run  --rm ghcr.io/<github-user>/container-demo:latest
     > Hello World!
     ```
+## Summary
+
+In this lab you've learned to publish docker containers to the GitHub container registry automatically with GitHub actions.
+
+If time permits you can also do the [Hands-on: Creating and publishing an npm package](09-Publishing-npm-package.md).
