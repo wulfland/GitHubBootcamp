@@ -10,7 +10,7 @@ The workshop is designed for developers that have used other platforms like Azur
 
 ## Getting ready
 
-Please follow [these instructions](GettingReady.md) and make sure you have set up everything correctly following the [prerequisits](#-prerequisits).
+Please follow [these instructions](GettingReady.md) and make sure you have set up everything correctly following the [prerequisites](#-prerequisites).
 
 ## 📆 Agenda
 
@@ -41,7 +41,7 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 
 ### Part 4: 🚀 CI/CD and automation
 
-- [ ] Introduction to GitHub Actions workflows und YAML
+- [ ] Introduction to GitHub Actions workflows and YAML
 - [ ] 🔨 Hands-on: [My first Action workflow](hol/05-My-first-workflow.md)
 - [ ] Types of GitHub Actions
 - [ ] 🔨 Hands-on: [My first container Action](hol/06-My-first-action.md)
@@ -54,9 +54,9 @@ If time permits you can do the following two more exercises to learn to deploy p
 - [ ] 🔨 Hands-on: [Creating and publishing a docker image to ghcr.io](hol/08-Publish-docker-to-ghcr.md) 
 - [ ] 🔨 Hands-on: [Creating and publishing an npm package](hol/09-Publishing-npm-package.md)
 
-## ⚡ Prerequisits
+## ⚡ Prerequisites
 
-The workshop is designed for developers that have used other platforms like Azure DevOps, GitLab, or Bitbucket and now want to switch to GitHub. But it is also suitable for people that are new to topics like git, CI/CD and DevOps.4
+The workshop is designed for developers that have used other platforms like Azure DevOps, GitLab, or Bitbucket and now want to switch to GitHub. But it is also suitable for people that are new to topics like git, CI/CD and DevOps.
 
 For this workshop you need the following:
 

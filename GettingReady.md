@@ -2,21 +2,22 @@
 
 
 > Note: If you are on windows and git was installed as part of another installation (i.e., Visual Studio), please download an up-to-date version and run the installer.
-> Make sure to configure an editor that you are familiar with and that you have a shell that works. If not, ask the trainer before the trainign starts!
+> Make sure to configure an editor that you are familiar with and that you have a shell that works. If not, ask the trainer before the training starts!
 
 ## Step 1: Set up your GitHub.com account
 
 For this class, we will use a public account on GitHub.com. We do this for a few reasons:
 
 We don't want you to "practice" in repositories that contain real code
-We are going to break some things, so we can teach you how to fix them (therefore, refer to the bullet above)
+We are going to break some things, so we can teach you how to fix them (therefore, refer to the line above)
+
 You can set up your free account by following these steps:
 
-Access [GitHub.com](https://github.com) and click Sign up
-Choose the free account
-You will receive a verification email at the address provided
-Click the link to complete the verification process
-If you already have an account, verify that you can visit github.com within your organization's network.
+* Access [GitHub.com](https://github.com) and click Sign up
+* Choose the free account
+* You will receive a verification email at the address provided
+* Click the link to complete the verification process
+* If you already have an account, verify that you can visit github.com within your organization's network.
 
 GitHub is designed to run on the current versions of all major browsers. Take a look at our list of supported browsers.
 
@@ -50,8 +51,8 @@ If you need additional assistance installing Git, you can find more information 
 Where is your shell?
 Now is a good time to create a shortcut to the command-line application you will want to use with Git:
 
-If you are working on Windows, we recommend Git Bash which is installed with the Git package, so that you can follow along with the facilitator who will be using Bash
-If you are working on macOS or another Unix-like system, you can use the built-in Terminal application
+If you are working on Windows, we recommend Git Bash which is installed with the Git package, so that you can follow along with the facilitator who will be using Bash.
+If you are working on macOS or another Unix-like system, you can use the built-in Terminal application.
 
 ## Step 3: Try cloning with HTTPS
 Open your chosen shell, and type:
@@ -63,7 +64,7 @@ git clone https://github.com/wulfland/AccelerateDevOps.git
 If the clone is successful you'll see:
 
 ```console
-$ git clone [https://github.com/githubschool/scratch](https://github.com/wulfland/AccelerateDevOps.git)
+$ git clone [https://github.com/wulfland/AccelerateDevOps](https://github.com/wulfland/AccelerateDevOps.git)
 > Cloning into 'AccelerateDevOps'...
 > remote: Counting objects: 6, done.
 > remote: Compressing objects: 100% (2/2), done.
@@ -101,12 +102,12 @@ You can use almost any text editor, but we have the best success with the follow
 
 
 [Visual Studio Code](https://code.visualstudio.com/)
-Notepad++
-Atom
-Notepad
-Vi or Vim
-Sublime
-GitPad
+* Notepad++
+* Atom
+* Notepad
+* Vi or Vim
+* Sublime
+* GitPad
 
 If you do not already have a text editor installed, go ahead and download and install one of the above editors now (Visual Studio Code recommended)! You can also configure Visual Studio Code as your default text editor for Git commands using the instructions at docs.github.com.
 
