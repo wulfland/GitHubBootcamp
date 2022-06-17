@@ -1,10 +1,21 @@
 # 🔨 Hands-on: Review code 
 
+In this hands-on lab you will learn how to perform reviews of code, make suggestions, and approve pull requests. The module consts of the following parts:
+- [Open pull the request and add a single comment](#open-pull-the-request-and-add-a-single-comment)
+- [Incorporate the changes and set PR to autocomplete](#incorporate-the-changes-and-set-pr-to-autocomplete)
+- [Performing a review](#performing-a-review)
+- [Reconciling your local repository](#reconciling-your-local-repository)
+
+> **Note**:  
+> ⚡ In this this exercise you have to work together with the same partner that you added as a reviewer to your pr in 
+> [Collaborate on code](03-Collaborate-on-code.md). The first part is in the repo of your partner. The second one in 
+> your own after the parter completed that aprt. The third one again in teh repo of your partner. Make sure that you 
+> always pick the right repository!
+
 ## Open pull the request and add a single comment
 
-> **Note:**  
-> This part is done in the repo of your execise partner!
-> 
+> **Note**:  
+> ⚡ This part is done in the repo of your execise partner!
 
 1. Open the PR of your partner - you should have received a notification. 
 2. Go to the `Filles changed` tab and click line 78. Drag the mous to line 79 - this will select two lines. 
@@ -14,9 +25,8 @@
 
 ## Incorporate the changes and set PR to autocomplete
 
-> **Note:**  
-> This part is done in YOUR repo!
->
+> **Note**:  
+> ⚡ This part is done in YOUR repo!
 
 1. Go back to your repo and wait for your partner to complete the comment with the suggestion.
 2. Open `Commit suggestion` and verify the commit message title and body. Click `Commit changes`:
@@ -39,11 +49,10 @@
 
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/5276337/174057729-fb6a4294-665c-4278-897c-fc4b152d578a.png">
 
-## Review
+## Performing a review
 
-> **Note:**  
-> This part is done in the repo of your execise partner!
-> 
+> **Note**:  
+> ⚡ This part is done in the repo of your execise partner!
 
 1. Open the PR again and note that the changes you had suggested are now visible. Add a new comment and this time start a review:
 
@@ -58,7 +67,7 @@
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/5276337/174058328-3e6a97be-4658-4d26-98b3-f5d4ed728342.png">
 
 
-## Clean up
+## Reconciling your local repository
 
 Verify that your own pull request is also merged. Go back to your command line and clean up your local repo:
 
@@ -99,3 +108,11 @@ $ pull --prune
 
 3. Check that the issue was automatically closed when the PR was merged
 4. Check that the bug was fixed and your game is working
+
+## Summary
+
+In this hands-on lab you've learned how to perform code reviews, make and incorporate suggestions, and approve pull requests.
+
+You can now continue with [CI/CD and Automation](../README.md#part-4--cicd-and-automation).
+
+
