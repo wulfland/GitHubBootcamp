@@ -44,10 +44,11 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 - [ ] Introduction to GitHub Actions workflows und YAML
 - [ ] 🔨 Hands-on: [My first Action workflow](hol/05-My-first-workflow.md)
 - [ ] Types of GitHub Actions
-- [ ] 🔨 Hands-on: My first container and JavaScript Action
+- [ ] 🔨 Hands-on: [My first container Action](hol/06-My-first-action.md)
+- [ ] Staged deployments with environments, approvals, and deployment gates
+- [ ] 🔨 Hands-on: [Staged deployments](hol/07-Staged-deployments.md)
 - [ ] GitHub Packages and GitHub Releases
 - [ ] 🔨 Hands-on: Releasing NPM packages and Docker containers
-- [ ] Staged deployments with environments, approvals, and deployment gates
 
 ## ⚡ Prerequisits
 
