@@ -1,6 +1,12 @@
 # 🔨 Hands-on: Collaboration using Issues, Discussions, and Pages
 
-## Issues
+In this hands-on lab you will practice to work with GitHub Issues, Discussions, and Pages. You will practice working with markdown, learn about issue templates and rendering markdown as a web page. The lab consists of the following parts:
+
+- [Working with Issues and Templates](#working-with-issues-and-templates)
+- [Participating in Discussions](#participating-in-discussions)
+- [Rendering markdonw as HTML with GitHub Pages](#rendering-markdonw-as-html-with-github-pages)
+
+## Working with Issues and Templates
 
 1. Create and Issue and add [markdown](https://github.com/wulfland/AccelerateDevOps/issues/232) elements (get help [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)):
     1. Mention a person or team (@)
@@ -64,6 +70,7 @@
     8. Add a required input with a placeholder text and a label, a textarea, a single select dropdown, a multi select dropdown, and a checkbox
 
     <details><summary>Solution</summary>  
+    
     ```yaml
     name: 💡 Custom Issue Form
     description: A custom form with different fields
@@ -115,11 +122,12 @@
             - label: I agree to follow this project's Code of Conduct
               required: true
     ```
+    
     </details>
     
     9. Verify your issue template and create a bug and an issue from the custom template
 
-## Discussions
+## Participating in Discussions
 
 1. Ask a question in discussions and answer it (mark it as answered)
 2. Create a poll 
@@ -127,7 +135,7 @@
 4. Pin the question and the announcement to discussion
 5. See [here](https://github.com/wulfland/AccelerateDevOps/discussions) for ideas
 
-## Pages
+## Rendering markdonw as HTML with GitHub Pages
 
 1. Create a markdown file `docs/index.md` hand add metadata `layout: home` amd some sample markdown 
 
@@ -166,3 +174,4 @@ markdown: kramdown
 
 </details>
 
+Congratulations. You have finished this lab. Please continue with the [README](../README.md#part-2--portfolio-and-project-management).
