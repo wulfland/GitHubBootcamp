@@ -43,4 +43,8 @@ In his hands-on lab you will practice working with GitHub projects. The exercise
 1. Enable all the default workflows
 2. Transition some issues and see how the status changes.
 
-Now that you have finished this exercise, you can go back to the [README](../README.md#part-3--collaborate-on-code).
+## Summary 
+
+In his hands-on lab you have practiced working with GitHub projects.
+
+Now that you have finished this exercise, you can continue and learn to [collaborate on code](../README.md#part-3--collaborate-on-code).
