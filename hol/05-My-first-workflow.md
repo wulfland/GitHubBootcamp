@@ -2,7 +2,8 @@
 
 In this hands-on lab your will create your first GitHub Action Workflow and learn how you can use Actions to automate tasks in your software development lifecycle. If you like more background information, please refer to the [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) pages on GitHub Docs. Good luck! 👍
 
-> Before you start with this lab, please remove the branch rule, so you can commit to the main branch without a pull request to speed up the process :smirk:
+> **Note**:  
+> Before you start with this lab, please remove the branch rule, so you can commit to the main branch without a pull request to speed up the process 😏
 
 This hands on lab consists of the following steps:
 - [Creating the workflow](#creating-the-workflow)
