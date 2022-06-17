@@ -174,4 +174,7 @@ markdown: kramdown
 
 </details>
 
-Congratulations. You have finished this lab. Please continue with the [README](../README.md#part-2--portfolio-and-project-management).
+## Summary
+
+In this hands-on lab you've practiced to work with GitHub Issues, Discussions, and Pages.
+Please continue with [Portfolio and project management](../README.md#part-2--portfolio-and-project-management).
