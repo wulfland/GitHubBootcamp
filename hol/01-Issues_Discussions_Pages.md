@@ -9,7 +9,7 @@ In this hands-on lab you will practice to work with GitHub Issues, Discussions, 
 ## Working with Issues and Templates
 
 1. Create and Issue and add [markdown](https://github.com/wulfland/AccelerateDevOps/issues/232) elements (get help [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)):
-    1. Mention a person or team (@)
+    1. Mention a person or team (using <kbd>@</kbd>)
     2. Add a syntax-highlighted code block
     3. Add a flow chart
     4. Add a pin to a location (geojson)
