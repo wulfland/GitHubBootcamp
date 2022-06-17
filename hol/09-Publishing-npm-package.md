@@ -1,5 +1,12 @@
 # 🔨 Hands-on: Creating and publishing an npm package
 
+In this hands-on lab you will learn how to [publish npm packages to GitHub](https://writeabout.net/2021/10/15/releasing-github-npm-packages/) using GitHub Actions. The module has the following steps:
+- [Ceating an npm package](#ceating-an-npm-package)
+- [Publishing an npm package](#publishing-an-npm-package)
+- [Automatically setting the NPM version](#automatically-setting-the-npm-version)
+
+## Ceating an npm package
+
 1. Create a new repository and select `Node` as your `.gitignore` template:
 
    <img width="500" alt="001_create-repo" src="https://user-images.githubusercontent.com/5276337/136522864-04c1a503-d647-41f9-bd7e-1670170cdf2b.png">
@@ -39,7 +46,9 @@
     $ git push
     ```
 
-6. Create a file `.github/workflows/release-package.yml` and copde the following content to it:
+## Publishing an npm package
+
+1. Create a file `.github/workflows/release-package.yml` and copde the following content to it:
 
     ```YAML
     name: Node.js Package
@@ -77,13 +86,13 @@
               NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
     ```
 
-7. Create a file `.npmrc` in the root of your repository with the following content:
+2. Create a file `.npmrc` in the root of your repository with the following content:
 
     ```yaml
     @YOUR-USER:registry=https://npm.pkg.github.com
     ```
 
-8. Commit and push the new files:
+3. Commit and push the new files:
 
     ```console
     $ git add .github/workflows/release-package.yml .npmrc
@@ -91,22 +100,24 @@
     $ git push
     ```
 
-9. Create a release. Click on `Releases` under `Code` and click `Draft new Release`. Create a new tag and enter a title. If you create the release, the workflow will automatically run.
+4. Create a release. Click on `Releases` under `Code` and click `Draft new Release`. Create a new tag and enter a title. If you create the release, the workflow will automatically run.
 
     <img width="500" alt="003_create-release" src="https://user-images.githubusercontent.com/5276337/136526942-2b6ebb28-bbe8-46df-84b3-ba02f76cbeb1.png">
 
-10. If the workflow has completed, you can find you package under `Code`.
+5. If the workflow has completed, you can find you package under `Code`.
 
     <img width="900" alt="004_see-package" src="https://user-images.githubusercontent.com/5276337/136528558-b9283c83-4e9a-4320-b7b0-2bc7601174a6.png">
 
-11. Click on the package to see the details:
+6. Click on the package to see the details:
 
     <img width="900" alt="005_package-details" src="https://user-images.githubusercontent.com/5276337/136528589-a25eed4f-6381-4b6d-b4c7-8e28ebc05a08.png">
 
-    > **Note:**  
+    > **Note**:  
     > If you want to create new releases, you have to update the version in `package.json`. Otherwise the build will fail.
 
-12. Automatically set package number  
+## Automatically setting the NPM version
+
+1. Automatically set package number  
     You can automate this step by adding the `NPM-Version` action and set it to the tag of the release:
 
     ```YAML
@@ -118,7 +129,7 @@
 
     Add this step to you yaml before the `- run: npm ci` step and create a new release. The package version is now set automatically to the tag.
 
-13. Calculate the version with GitVersion
+2. Calculate the version with GitVersion
     If you have a more complex workflow you can use `GitVersion` to calculate your version number. You have to make your checkout shallow for that to work:
     
     ```yaml
@@ -154,3 +165,9 @@
         branches:
           - 'release/*'
     ```
+
+## Summary
+
+In this module you have learned how to create NPM packages and deploy them to GitHub Packes with automatic versioning.
+
+🥇 Congratulations! You have finished all the execises of the GitHub Bootcamp worshop.
