@@ -1,7 +1,7 @@
 Javascript Tetris
 =================
 
-Hello World!≈
+Hello World! ;)
 
 An HTML5 Tetris Game
 
