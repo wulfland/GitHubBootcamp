@@ -1,6 +1,8 @@
 Javascript Tetris
 =================
 
+Hello World!≈
+
 An HTML5 Tetris Game
 
  * [play the game](http://codeincomplete.com/projects/tetris/)
