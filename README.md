@@ -6,7 +6,7 @@ Repo for the `GitHub Bootcamp` 1-day Workshop from @wulfland.
 
 GitHub is more than just source control. It is a complete DevOps solution that can help you to accelerate your entire development process – from idea to production. In this practical boot camp, you’ll get to know all parts of GitHub and you’ll learn all tricks to get you an effective start.
 
-The workshop is designed for developers that have used other platforms like Azure DevOps, GitLab, or Bitbucket and now want to switch to GitHub. But it is also suitable for people that are new to topics like git, CI/CD and DevOps.
+The workshop is designed for developers that have used other platforms like Azure DevOps, GitLab, or Bitbucket and now want to switch to GitHub. But it is also suitable for people that are new to topics like git, CI/CD, and DevOps.
 
 ## Getting ready
 
@@ -56,12 +56,12 @@ If time permits you can do the following two more exercises to learn to deploy p
 
 ## ⚡ Prerequisites
 
-The workshop is designed for developers that have used other platforms like Azure DevOps, GitLab, or Bitbucket and now want to switch to GitHub. But it is also suitable for people that are new to topics like git, CI/CD and DevOps.
+The workshop is designed for developers that have used other platforms like Azure DevOps, GitLab, or Bitbucket and now want to switch to GitHub. But it is also suitable for people that are new to topics like git, CI/CD, and DevOps.
 
 For this workshop you need the following:
 
 - A laptop (Windows, Mac, or Linux)
 - A free account for https://github.com
-- A text editor of choice (Visual Studio Code, VIM, Atom, Notepad++ or similar)
+- A text editor of choice (Visual Studio Code, VIM, Atom, Notepad++, or similar)
 - Git in a current version (>2.23, on Windows with Git-Bash for beginners)
 
