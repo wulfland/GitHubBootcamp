@@ -2,8 +2,6 @@ name: Init
 
 on: [create, workflow_dispatch]
 
-permissions: write-all
-
 jobs:
   initialize_repo:
     runs-on: ubuntu-latest
@@ -17,14 +15,4 @@ jobs:
           gh issue create -t "🐞 Fix game" -l bug -b "The game is broken ⚡  because it is too slow. Go to [docs/index.html](../blob/main/docs/index.html#L78) line 78 and adjust `start` and `min` properties of speed and set the to the following values:
 
           speed   = { start: 0.6, decrement: 0.005, min: 0.1 }"
-        
-      - name: Set repository defaults
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api --method PATCH \
-            -H "Accept: application/vnd.github+json" \
-            /repos/${{ github.repository }} \
-            -F has_discussions=true \
-            -F allow_auto_merge=true
           
