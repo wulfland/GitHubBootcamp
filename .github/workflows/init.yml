@@ -1,6 +1,6 @@
 name: Init
 
-on: [create]
+on: [create, workflow_dispatch]
 
 jobs:
   initialize_repo:
