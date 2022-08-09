@@ -6,15 +6,11 @@ jobs:
   initialize_repo:
     runs-on: ubuntu-latest
     steps:
-      - name: Create Issue Action
-        uses: nashmaniac/create-issue-action@v1.1
-        with:
-          title: 🐞 Fix game
-          token: $GITHUB_TOKEN
-          labels: bug
-          body: |
-            The game is broken ⚡  because it is too slow. Go to [docs/index.html](../blob/main/docs/index.html#L78) line 78 and adjust `start` and `min` properties of speed and set the to the following values:
+      - name: Create Issue
+        run: |
+          gh issue create -t "🐞 Fix game" -l bug -b "he game is broken ⚡  because it is too slow. Go to [docs/index.html](../blob/main/docs/index.html#L78) line 78 and adjust `start` and `min` properties of speed and set the to the following values:
 
             ```js
             speed   = { start: 0.6, decrement: 0.005, min: 0.1 }
             ```
+          "
