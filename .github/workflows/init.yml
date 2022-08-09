@@ -23,6 +23,6 @@ jobs:
           gh api --method PATCH \
             -H "Accept: application/vnd.github+json" \
             /repos/${{ github.repository }} \
-            -F has_discussions=tru \
+            -F has_discussions=true \
             -F allow_auto_merge=true
           
