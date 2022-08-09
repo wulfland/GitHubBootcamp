@@ -8,6 +8,4 @@ jobs:
     steps:
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@v2.0.3
-        with:
-          delete_workflow_pattern: hello-world-docker-ci.yml
           
