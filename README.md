@@ -54,6 +54,12 @@ If time permits you can do the following two more exercises to learn to deploy p
 - [ ] 🔨 Hands-on: [Creating and publishing a docker image to ghcr.io](hol/08-Publish-docker-to-ghcr.md) 
 - [ ] 🔨 Hands-on: [Creating and publishing an npm package](hol/09-Publishing-npm-package.md)
 
+If you have an account for a cloud provider you can do one of these hands-on labs to deploy an application to the cloud:
+- [ ] 🔨 Hands-on: [Deploy to Azure App Service](https://github.com/wulfland/AccelerateDevOps/blob/main/ch9_release/Deploy_to_Azure_App_Service.md)
+- [ ] 🔨 Hands-on: [Deploy to AWS Elastic Container Service (ECS)](https://github.com/wulfland/AccelerateDevOps/blob/main/ch9_release/Deploy_to_AWS_ECS.md)
+- [ ] 🔨 Hands-on: [Deploy to Google Kubernetes Engine (GKE)](https://github.com/wulfland/AccelerateDevOps/blob/main/ch9_release/Deploy_to_GKE.md)
+
+
 ## ⚡ Prerequisites
 
 The workshop is designed for developers that have used other platforms like Azure DevOps, GitLab, or Bitbucket and now want to switch to GitHub. But it is also suitable for people that are new to topics like git, CI/CD and DevOps.
