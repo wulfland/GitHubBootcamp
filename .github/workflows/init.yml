@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh issue create -t "🐞 Fix game" -l bug -b "he game is broken ⚡  because it is too slow. Go to [docs/index.html](../blob/main/docs/index.html#L78) line 78 and adjust `start` and `min` properties of speed and set the to the following values:
 
