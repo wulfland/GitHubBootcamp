@@ -6,6 +6,9 @@ jobs:
   initialize_repo:
     runs-on: ubuntu-latest
     steps:
+      - name: Check git ref
+        run: echo "Reference ${{ github.ref }}"
+        
       - name: Checkout
         uses: actions/checkout@v2.4.2
       - name: Create Issue
